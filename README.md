@@ -9,7 +9,7 @@ when the user puts in an input in the field and searches the apis of New York Ti
 
 ## Optimizations:
 
-In the future enter key functionality will be added. The links will also be embedded into text. and made visually more appealing. Error messages as well as a replace of output on a new click event will also be added.
+Potentially add more css components.
 
 ## Lessons Learned:
 
