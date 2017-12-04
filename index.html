@@ -5,18 +5,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- <div id="search-container">
-    <h1>Wikipedia Search Results</h1>
-    <input id="search-term" />
-    <button id="search-button" class="btn btn-primary" type="submit">Search</button>
-  </div>
-  <div id="autocomplete"></div>
-  <h2></h2>
-  <div id="full-list">
-
-  </div> -->
-  <section class="container">
-      <div>
+ <section class="container">
+      <div id="heading">
           <h1 class="text-center">Wikipedia Searcher</h1>
           <div class="input-group input-group-lg">
               <input id="searchText" type="text" class="form-control" placeholder="Search for...">
@@ -29,9 +19,13 @@
   </section>
 
   <section>
-      <div>
+      <div id="wik">
+        <h4>Wikipedia Result</h4>
         <ul id="data">
         </ul>
+        </div>
+        <div id="nyc">
+          <h4>New York Times Result</h4>
           <ul id="results" style="list-style-type:none">
 
           </ul>
